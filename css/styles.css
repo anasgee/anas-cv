@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+
+/* font-family: 'Courier New', Courier, monospace; */
+background-color: antiquewhite;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,1fr);
+    margin: auto;
+    padding: 50px;
+    grid-auto-columns: max-content;
+    grid-auto-rows: max-content;
+    width: 60%;
+}
+
+.leftCta{
+    background-color: rgb(35, 34, 34);
+    grid-row-start: 1;
+    grid-row-end:7 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 700px;
+    
+    color: white;
+
+
+}
+.leftCta h2{
+    text-align: center;
+    font-size: 1rem;
+}
+.leftCta h3{
+    font-size: .8rem;
+    text-align: center;
+ 
+}
+.cta{
+    margin-top: 15px;
+}
+.leftCta p{
+    font-size: .6rem;
+    text-align: center;
+    margin: 5px 25px 5px;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+    margin: 3px;
+     font-size: .6rem;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+}
+.leftCta img{
+    width: 170px;
+    left: 23px;
+    top: 23px;
+    position: relative;
+}
+
+.rightCta{
+    grid-row-start: 1   ;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-color: white;
+    text-align: center;
+}
+
+.rightCta .name{
+    background-color: rgb(226, 171, 7);
+    height: 100px;
+    color: Black;
+    
+    margin-top: 60px;
+}
+.rightCta h1{
+
+    padding-top: 20px;
+}
+.rightCta p{
+    width: 80%;
+    margin-top: 10px;
+    margin: auto;
+}
+.rightCta .name p{
+
+    letter-spacing: 5px;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    border: 1px dotted goldenrod;
+    
+}
